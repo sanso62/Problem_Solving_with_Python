@@ -1,12 +1,10 @@
-numbers = []
-new_numbers = []
 n = int(input())
+numbers = [0,1]
 if n == 1 :
-  print(n)
+    print(1)
 elif n == 2 :
-  print(n)
+    print(2)
 else :
-  for i in range(n)
-      numbers[i] = i
-      new_numbers[] = numbers[]
-      print(new_numbers[n-1] + new_numbers[n-2])      
+    for i in range(2,n+1) :
+        numbers.append(numbers[i-1]+numbers[i-2])
+    print(numbers[n-1])   
