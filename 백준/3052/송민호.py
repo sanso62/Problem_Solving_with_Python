@@ -1,7 +1,7 @@
 a=[]
 b=[]
-a.append = int(input(0))
-for i in 10 :
-  b.append=a[i]%42
+for i in range(10) :
+  a.append(int(input()))
+  b.append(a[i]%42)
 b1 = set(b)
-print(len[b1])
+print(len(b1))
