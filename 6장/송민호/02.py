@@ -1,3 +1,3 @@
-def reverse(self, s: list[str]) :
+def reverse(self, s: List[str]) :
     
     s.reverse()
