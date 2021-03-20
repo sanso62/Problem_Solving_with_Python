@@ -1,5 +1,4 @@
-import Deque
-import collections
+from collections import Deque
 
 def isPalindrome(self, s:str) :
     
