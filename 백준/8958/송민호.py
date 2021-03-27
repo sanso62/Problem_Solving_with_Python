@@ -5,7 +5,7 @@ def score(self,result:str):
         if i == 'O':
             scores += 1
         elif i == 'X':
-            final_score = scores
+            final_score += scores
             scores = 0 
         else:
             pass
