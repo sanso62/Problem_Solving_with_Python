@@ -10,7 +10,7 @@ class Solution:
                 continue
             while stack and c < stack[-1] and counter[stack[-1]] > 0:
                 seen.remove(stack.pop())
-            stack.append(char)
-            seen.add(char)
+            stack.append(c)
+            seen.add(c)
         
         return ''.join(stack)
