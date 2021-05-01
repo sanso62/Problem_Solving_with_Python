@@ -11,7 +11,7 @@ for i,top in enumerate(tops):
         continue
 
     while stack and stack[-1][1]<top:
-        result[stack[-1][0]]=len(tops)-i
+        result[stack[-1][0]]=len(tops)-i-1
         stack.pop()
 
     stack.append((i, top))
