@@ -5,4 +5,4 @@ for i in range(1,N+1):
 while len(stack) != 1:
     stack.pop(0)
     stack.append(stack.pop(0))
-print(stack)  
+print(stack[0])  
