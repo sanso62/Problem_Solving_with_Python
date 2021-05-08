@@ -1,9 +1,7 @@
 TestCase=int(input())
 
 for t in range(TestCase):
-    string=input()
-    N=int(string[0])
-    M=int(string[2])
+    N,M=list(map(int,input().split()))
     importance=list()
     queue=[]
     for i in range(9):
